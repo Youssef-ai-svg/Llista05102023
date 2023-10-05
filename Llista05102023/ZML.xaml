@@ -1,0 +1,15 @@
+﻿<Window x:Class="Llista05102023.ZML"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Llista05102023"
+        mc:Ignorable="d"
+        Title="ZML" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <TextBox x:Name="Name1" HorizontalAlignment="Left" Margin="20,304,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Age2" HorizontalAlignment="Left" Margin="179,304,0,0" TextWrapping="Wrap" Text="Age" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Delete2" Content="Delete" HorizontalAlignment="Left" Margin="179,343,0,0" VerticalAlignment="Top" Height="35" Width="59" Click="Delete_Click"/>
+
+    </Grid>
+</Window>
